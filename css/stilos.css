@@ -1,0 +1,94 @@
+*{
+    max-width: 150%;
+    box-sizing: border-box;
+}
+
+
+/**Publicidad Solicita el servicio online**/
+.Imagenprincipal{
+    width: 100%;
+    
+}
+
+/*Publicidades*/
+img{
+    width: 100% ;
+}
+
+.contenedormini{
+    display: flex;
+  margin:auto ;
+  width: 100%;
+  justify-content: space-around;
+  background-color: cadetblue;
+  margin-bottom: 50px;
+
+}
+
+
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 124, 233);
+    width: 100%;
+}
+
+.column img{
+    width: 15rem;
+    height: 220px;
+    margin: 50px;
+    
+   }
+
+
+.minipublididad{
+    border: 1px solid;
+    
+}
+
+
+
+/* Propagandas mbps */
+
+.Megas{
+    
+}
+
+h2{  display: flex;
+    justify-content: center;
+    font-size: 60px;
+    border: 1px solid;
+}
+
+
+   /* Botones de suscipcion */
+
+
+  .boton{
+      text-align: center;
+      justify-content: center;
+      border-radius: 10px;
+      text-decoration: none;
+      padding: 10px;
+      background-color: cornflowerblue;
+      
+  }
+  .boton:hover{
+      color: aliceblue;
+  }
+    
+/* footer*/
+  .piepagina{ 
+    margin-top: 30px ;
+    background-color: brown;
+  }
+
+
+
+
+h4{
+   margin: auto;
+padding-top: 15px;
+  
+}
