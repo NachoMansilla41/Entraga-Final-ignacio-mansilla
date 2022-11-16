@@ -158,9 +158,19 @@ padding-top: 15px;
     border: 3px solid;
 }
 .precio{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
     font-size: 35px;
-    padding-left: 40%;
+    border-left: 1px solid;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+
+    
+
 
 h6{
 font-size: 70px;
@@ -170,11 +180,7 @@ justify-content: center;
 background-color: white;
 }
 
-h5{
-    border-radius: 2px solid;
-    background-color: aquamarine;
-    
-}
+
 
 p{
  
