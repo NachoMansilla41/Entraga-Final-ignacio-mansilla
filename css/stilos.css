@@ -104,12 +104,17 @@ h2{  display: flex;
 /* footer*/
   .piepagina{ 
     width: 100%;
+    display: flex;
     margin-top: 30px;
     position: absolute;
     background-color: rgb(70, 175, 189);
+    display: grid
     
-  }
-   
+    
+ }
+
+
+
 .piepagina .grupo-1{
     width: 100%;
     max-width: 1200px;
@@ -117,9 +122,22 @@ h2{  display: flex;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap:0px ;
-    padding: 0px 0px;
+   gap: 45px;
+    padding: 0px 50px;¨
+    
 
+}
+
+
+@media screen and (max-whidth: 800px)  {
+    
+        .piepagina .grupo-1{
+        width: 100%;
+        grid-template-columns: repeat(1, fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    
+    }
 }
 
 .piepagina .grupo-1 .box figure{
@@ -161,6 +179,8 @@ padding-top: 15px;
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    display: grid;
+    grid-template-columns:3, 1fr;
     margin-bottom: 30px;
     font-size: 35px;
     border-left: 1px solid;
@@ -187,8 +207,4 @@ p{
 }
 
 
-.Numero{
-    background-color: rgb(20, 181, 192);
-    font-size: 50px;
-}
 
