@@ -123,12 +123,12 @@ h2{  display: flex;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
    gap: 45px;
-    padding: 0px 50px;¨
+    padding: 0px 50px;
     
 
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576px) { 
     .piepagina .grupo-1 {
         grid-template-columns: repeat(1, 1fr);
         gap:0%;
@@ -141,7 +141,7 @@ h2{  display: flex;
       p{
         margin-top: 15px;
       }
-
+}
 
 .piepagina .grupo-1 .box figure{
     width: 100%;
@@ -201,7 +201,10 @@ border: 1px solid;
 display: flex;
 justify-content: center;
 background-color: white;
+
 }
 
 
-
+.Sas{
+    color: red;
+}

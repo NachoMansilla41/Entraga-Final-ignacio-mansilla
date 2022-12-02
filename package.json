@@ -1,0 +1,19 @@
+{
+  "name": "pre-entrega-2-ignacio-mansilla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NachoMansilla41/Segunda-pre-entrega.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NachoMansilla41/Segunda-pre-entrega/issues"
+  },
+  "homepage": "https://github.com/NachoMansilla41/Segunda-pre-entrega#readme"
+}
