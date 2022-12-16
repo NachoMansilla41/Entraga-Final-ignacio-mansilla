@@ -184,6 +184,14 @@ form{
   border-radius: 20px;
   margin-bottom: 20px;
 }
+@media (max-width: 576px) {
+  form{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0%;
+    padding-left: 15px;
+
+  }
+}
 
 p .tituloform{
   font-size: 600px;
