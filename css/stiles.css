@@ -166,4 +166,49 @@ h6 {
   color: red;
 }
 
+
+contacto
+
+
+
+
+
+
+form{
+  width: 450px;
+  margin: auto;
+  background-color: rgba( 0,0,0,0.8);
+  padding: 10px 20px; 
+  box-sizing: border-box;
+  margin-top: 50px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+p .tituloform{
+  font-size: 600px;
+}
+
+
+input{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+textarea{
+min-height: 100px;
+max-height: 150px;
+max-width: 100px;
+}
+
+#boton{
+  background-color: darkgoldenrod;
+  color: white;
+}
+#boton:hover{
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=stiles.css.map */
